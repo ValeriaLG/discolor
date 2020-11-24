@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/discolor/static/css/main.6714a1e2.chunk.css",
-    "main.js": "/discolor/static/js/main.fc8c73a0.chunk.js",
-    "main.js.map": "/discolor/static/js/main.fc8c73a0.chunk.js.map",
+    "main.css": "/discolor/static/css/main.14148da1.chunk.css",
+    "main.js": "/discolor/static/js/main.e848dda4.chunk.js",
+    "main.js.map": "/discolor/static/js/main.e848dda4.chunk.js.map",
     "runtime-main.js": "/discolor/static/js/runtime-main.65f60d01.js",
     "runtime-main.js.map": "/discolor/static/js/runtime-main.65f60d01.js.map",
-    "static/js/2.f545a664.chunk.js": "/discolor/static/js/2.f545a664.chunk.js",
-    "static/js/2.f545a664.chunk.js.map": "/discolor/static/js/2.f545a664.chunk.js.map",
+    "static/js/2.f7fd7159.chunk.js": "/discolor/static/js/2.f7fd7159.chunk.js",
+    "static/js/2.f7fd7159.chunk.js.map": "/discolor/static/js/2.f7fd7159.chunk.js.map",
     "index.html": "/discolor/index.html",
-    "precache-manifest.2c97a64531b17f25e0c28b5c567c5dd7.js": "/discolor/precache-manifest.2c97a64531b17f25e0c28b5c567c5dd7.js",
+    "precache-manifest.ae1f03b644b7e828d2c4a43f4fcc8b12.js": "/discolor/precache-manifest.ae1f03b644b7e828d2c4a43f4fcc8b12.js",
     "service-worker.js": "/discolor/service-worker.js",
-    "static/css/main.6714a1e2.chunk.css.map": "/discolor/static/css/main.6714a1e2.chunk.css.map",
-    "static/js/2.f545a664.chunk.js.LICENSE.txt": "/discolor/static/js/2.f545a664.chunk.js.LICENSE.txt",
+    "static/css/main.14148da1.chunk.css.map": "/discolor/static/css/main.14148da1.chunk.css.map",
+    "static/js/2.f7fd7159.chunk.js.LICENSE.txt": "/discolor/static/js/2.f7fd7159.chunk.js.LICENSE.txt",
     "static/media/discord-color-icon_lighter_version.png": "/discolor/static/media/discord-color-icon_lighter_version.b186c703.png",
     "static/media/side-bar.scss": "/discolor/static/media/written.0e6261c7.woff",
     "static/media/discord_pfp_yellow.png": "/discolor/static/media/discord_pfp_yellow.45db083a.png",
-    "static/media/top-bar.scss": "/discolor/static/media/magnifying-glass.b3c5fde0.png"
+    "static/media/top-bar.scss": "/discolor/static/media/magnifying-glass.b3c5fde0.png",
+    "static/media/paint-brush.png": "/discolor/static/media/paint-brush.5d9f0105.png"
   },
   "entrypoints": [
     "static/js/runtime-main.65f60d01.js",
-    "static/js/2.f545a664.chunk.js",
-    "static/css/main.6714a1e2.chunk.css",
-    "static/js/main.fc8c73a0.chunk.js"
+    "static/js/2.f7fd7159.chunk.js",
+    "static/css/main.14148da1.chunk.css",
+    "static/js/main.e848dda4.chunk.js"
   ]
 }
