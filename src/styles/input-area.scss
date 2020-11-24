@@ -1,0 +1,26 @@
+#input-container {
+  height: 45px;
+}
+
+
+#input-container {
+  input {
+    height: 35px;
+    line-height: 17px;
+    background-color: #40444b;
+    border: none;
+    padding: 2px 2px 2px 8px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 95%;
+    border-radius: 6px;
+    color: white;
+  }
+
+  input:active, input:focus {
+    border: none;
+    outline: none;
+  }
+
+
+}

@@ -1,0 +1,104 @@
+/* Friends list */
+
+#friends-wrapper:not(hr) {
+  float: right;
+  width: 220px;
+  height: 100%;
+  color: #dcddde;
+  padding: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #202225;
+  position: relative;
+}
+
+#friends-menu {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8e9297;
+}
+
+#friends-menu p {
+  width: 90%;
+  height: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#friends-menu p {
+  color: #72767d;
+}
+
+#friends-menu p:hover {
+  background-color: rgba(79,84,92,0.16);
+  color: white;
+}
+
+
+
+#friends-menu span {
+  float: left;
+}
+
+#friends-menu svg {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+#friends-list h1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #8e9297;
+  margin: 10px 0 10px 0;
+}
+
+
+.friend {
+  margin: 0 0 10px 0;
+}
+
+.friend img {
+  float: left;
+}
+
+
+.friend:hover {
+  background-color: rgba(79,84,92,0.16);
+}
+
+#username:hover, .other-user {
+  color: white;
+}
+
+#username, .other-user {
+  padding: 5px 5px 5px 10px;
+  font-weight: bold;
+  color: #8e9297;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: discord;
+  width: 100px;
+}
+
+.avatar {
+  padding: 2px 0 2px 3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+
+.other-name, .friend {
+  display: flex;
+
+}
+
+
+input:active, input:focus {
+  border: none;
+  outline: none;
+}
+

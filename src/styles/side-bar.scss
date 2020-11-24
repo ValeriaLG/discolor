@@ -1,0 +1,192 @@
+/* General stuff */
+
+@font-face {
+  font-family: discord;
+  font-weight: 400;
+  src: url("../assets/fonts/discord.woff") format("woff");
+}
+
+@font-face {
+  font-family: written;
+  src: url("../assets/fonts/written.woff") format("woff");
+}
+
+/* Scroll */
+
+
+/* Server list to the left */
+
+
+
+#servers-wrapper {
+  float: left;
+  width: 72px;
+  height: 100vh;
+  padding: 10px 0 10px 0;
+  background-color: #202225;
+  box-sizing: border-box;
+}
+
+#discord-logo:not(svg) {
+  color: #dcddde;
+  background-color: #36393f;
+  margin-bottom: 20px;
+}
+
+#discord-logo:not(svg):hover {
+  color: #ffffff;
+  background-color: #7289da;
+}
+
+#discord-logo svg {
+  padding: 13px 10px 10px 10px;
+}
+
+.server-icon {
+  margin: 0 0 10px 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+
+.server-icon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  transition: all 0.1s ease-in-out;
+}
+
+.server-icon-active img,
+.server-icon:hover,
+.server-icon img:hover {
+  border-radius: 30%;
+}
+
+.server-icon-active::before,
+.server-icon:hover::before, .school-bus::before {
+  content: ' ';
+  position: absolute;
+  top: 28%;
+  left: -12px;
+  width: 5px;
+  height: 20px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+#channel-wrapper:not(hr) {
+  float: left;
+  box-sizing: border-box;
+  width: 220px;
+  height: 100vh;
+  background-color: #2f3136;
+  color: #dcddde;
+  padding: 0 0 0 0;
+  position: relative;
+}
+
+#server-section {
+  padding-top: 10px;
+  border-bottom: 1px solid #202225;
+  height: 33px;
+  box-shadow: 0 1px #202225;
+}
+
+.server-name {
+  margin-left: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.channel-listings {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 10px;
+  color: #8e9297;
+}
+
+#server-section .arrow-down {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 5px 15px 5px 0;
+  float: right;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#server-section:hover {
+  background-color: #32353b;
+}
+
+.channel-listings {
+  .pound-sign {
+    color: #8e9297;
+    font-size: 1.3em;
+    font-weight: 300;
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .channel {
+    padding: 3px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    border-radius: 5px;
+  }
+
+  .channel span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+  }
+
+  .channel:hover {
+    background-color: rgba(79, 84, 92, 0.16);
+    color: white;
+  }
+
+  .channel-title {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .channel-title:hover {
+    color: white;
+  }
+
+  .arrow-down {
+    border: solid #8e9297;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 1.5px;
+    margin: 0 2px 2px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@media only screen and (max-width: 850px){
+  #channel-wrapper:not(hr) {
+    width: 74%;
+  }
+}
+
+@media only screen and (max-width: 512px){
+  #channel-wrapper:not(hr) {
+    width: 72%;
+  }
+}
