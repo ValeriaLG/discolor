@@ -10,6 +10,7 @@
   position: absolute;
   z-index: 2;
   bottom: 50px;
+  left: 15px;
 }
 
 
@@ -50,40 +51,71 @@
   height: 100%;
 }
 
-.message-input-area {
-  grid-row: 3/4;
-}
 
 .message-list, .message-input-area {
   margin-left: 40px;
 }
 
-/* middle section of the layout ends */
-
 .message-input-area {
   grid-row: 3/3;
 }
 
+
+/* middle section of the layout ends */
+
 @media only screen and (max-width: 850px){
 
   .discord-container {
-    grid-template-columns: 5fr 0.5fr;
+    display: block;
   }
 
-  .middle-area {
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 19fr;
-    grid-column: 2/3;
-  }
 
   .side-bar {
-    grid-column: 1/2;
-  }
-
-  .message-list, .message-input-area {
     display: none;
   }
-  .right-side-bar {
-    grid-column: 1/2;
+  
+  .middle-area {
+    grid-column: 1/1;
+    grid-template-columns: auto;
+    height: 100%;
+    grid-template-rows: 1fr 15fr 1fr;
   }
+
+  .message-list {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-row: 2/3;
+    grid-column: 1/1;
+    margin: 2px 15px;
+  }
+
+  .top-bar-area {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+
+  .message-input-area {
+    margin: 5px 15px;
+    grid-column: 1/1;
+    display: block;
+    grid-row: 3/3;
+  }
+
+  .right-side-bar {
+    display: none;
+  }
+
+  #sketch-picker {
+    top: 50px;
+    left: 15px;
+    height: 310px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .middle-area {
+    grid-template-rows: 1fr 9fr 1fr;
+  }
+
 }

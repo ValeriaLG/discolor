@@ -47,6 +47,11 @@
   span, input {
     margin: 0px 5px;
   }
+
+  .paint-brush-icon {
+    width: 20px;
+    cursor: pointer;
+  }
 }
 
 .channel-name {
@@ -78,7 +83,7 @@
 
 
   #friends-menu-wrapper {
-    width: 70%;
+    width: 85%;
   }
 
   #top-bar-wrapper input {
@@ -87,5 +92,12 @@
 
   .channel-name {
     float: initial;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  #friends-menu-wrapper {
+    width: 70%;
   }
 }

@@ -22,7 +22,8 @@ export class DiscordContainer extends Component {
       this.state = {
         input: "",
         background: "#fff",
-        username: "Username"
+        username: "Username",
+        showPalette: true
       };
 
       this.handleInput = this.handleInput.bind(this);
@@ -99,11 +100,12 @@ export class DiscordContainer extends Component {
 
     render() {
       const { messages } = this.props;
+      const { showPalette } = this.state;
       return (
         <div className="discord-container">
 
 
-          <div id="sketch-picker">
+          <div id="sketch-picker" style={showPalette ? {display:"block"} : {display:"none"}}>
             <SketchPicker color={ this.state.background } onChangeComplete={ this.changeColor } />
           </div>
 
@@ -115,7 +117,7 @@ export class DiscordContainer extends Component {
           <div className="middle-area">
 
             <div className="top-bar-area">
-              <TopBar />
+              <TopBar togglePalette={ () => this.setState({ showPalette: !showPalette })} />
             </div>
 
             <div className="message-list">
